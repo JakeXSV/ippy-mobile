@@ -5,8 +5,8 @@
   <ion-content>
       <label class="item item-input">
           <span class="input-label">Domain</span>
-          <input type="text" placeholder="www.google.com">
+          <input type="text" placeholder="www.google.com" ng-model="domainToIpModel.domain">
       </label>
-      <button class="button button-block button-calm" ng-click="showAlert()">ippit</button>
+      <button class="button button-block button-calm" ng-click="domainToIp()">ippit</button>
   </ion-content>
 </ion-view>
